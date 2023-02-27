@@ -22,7 +22,8 @@ public class Triangle
         {
             this.width = width;
         }
-        public float getHeight() {
+        public float getHeight() 
+        {
             return this.height;
         }
         public void setHeight(float height) 
@@ -30,7 +31,8 @@ public class Triangle
             this.height = height;
         }
         @Override
-        public String toString() {
+        public String toString() 
+        {
             return "{" +
                     " width='" + getWidth() + "'" +
                     ", height='" + getHeight() + "'" +
